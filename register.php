@@ -1,6 +1,6 @@
 <?php
 
-require 'functions.php';
+require 'vote/functions.php';
 
 if(isset($_POST['btregister']))
 {

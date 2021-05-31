@@ -1,9 +1,6 @@
 <?php
 
-    $servername = "80.109.151.142";
-    $username = "votinguser";
-    $password = "Vote*123";
-    $dbname = "voting";
+	require_once "connect.php";
 	
 	$username_err = $password_err = $confirm_password_err = "";
 	

@@ -3,11 +3,11 @@
 session_start();
 
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: choose.php");
+    header("location: vote/choose.php");
     exit;
 }
 
-require 'functions.php';
+require 'vote/functions.php';
 
 if(isset($_POST['btlogin']))
 {
